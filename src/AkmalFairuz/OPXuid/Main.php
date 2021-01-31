@@ -59,7 +59,7 @@ class Main extends PluginBase
             }
             $xuid = $xuid->getXuid();
         }
-        if($op === false) {
+        if($op !== false) {
             $this->operators[] = $xuid;
         } else {
             foreach ($this->operators as $key => $operator) {
