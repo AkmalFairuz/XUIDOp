@@ -1,0 +1,4 @@
+# If your server use waterdog, please set 'true' to plugin can detect XUID from waterdog proxy.
+waterdog_support: true
+# I recommended to disable op command for security reason. You may still use /xuidop to set player operator.
+disable_op_command: true
