@@ -37,6 +37,8 @@ class Main extends PluginBase
         }
         $map->register("xuidop", new XUIDOpCommand("xuidop", $this));
         $map->register("xuiddeop", new XUIDDeopCommand("xuiddeop", $this));
+
+        $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
     }
 
     public function isOp(Player $player) : bool {
