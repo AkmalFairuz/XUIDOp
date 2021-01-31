@@ -1,7 +1,7 @@
 # XUIDOp
 
 ## Should i use this?
-YES! If your server use player name to save player data. As we know Xbox Live have glitch to create gamertag same with another account
+YES! If your server use player name to save player data. XBOX Account have bug, you can create xbox account with same gamertag.
 
 Usage: 
 - /xuidop <player/xuid> <player name / xuid>
