@@ -1,4 +1,8 @@
 # XUIDOp
+
+## Should i use this?
+YES! If your server use player name to save player data. As we know Xbox Live have glitch to create gamertag same with another account
+
 Usage: 
 - /xuidop <player/xuid> <player name / xuid>
 - /xuiddeop <player/xuid> <player name / xuid>
